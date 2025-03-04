@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Oletus kohteelle ID00CS33-3004/integration2</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 3897753  -->
+  <question type="stack">
+    <name>
+      <text>int2-1 sqrt(x)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Example. </strong>\(\int x^7\sqrt{x}dx=\int x^{7.5}dx=\frac{x^{8.5}}{8.5}\)</p><p><strong>Problem. </strong>\(\int x^{{#a#}}\sqrt{x}dx\)</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,3,4,5]);
+f: x^(a+3/2)/(a+3/2)
+df: sqrt(x)*x^a;
+tans: f;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3898521  -->
+  <question type="stack">
+    <name>
+      <text>int2-2 f'(x)f(x)^n</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Formula. </strong>\(\int f'(x)f(x)^ndx=\frac{f(x)^{n+1}}{n+1}\), when \(n\neq -1\)</p><p><strong>Example. </strong>\(\int \cos(x)(\sin(x))^7dx=\frac{(\sin(x))^8}{8}\)</p><p><strong>Problem. </strong>\(\int {@df@}\cdot ({@f@})^{#a#} dx\)</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,3,4,5]);
+f: rand([sin(x),cos(x),ln(x)]);
+df: diff(f,x);
+tans: f^(a+1)/(a+1);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>f: rand([exp(x),x^4,sin(x),cos(x),ln(x)]);</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3898522  -->
+  <question type="stack">
+    <name>
+      <text>int2-3 f'(x)/f(x)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Formula. </strong>\(\int f'(x)/f(x)dx=\ln(f(x))\)</p><p><strong>Example. </strong>\(\int \cos(x)/\sin(x)dx=\ln(\sin(x))\)</p><p><strong>Problem. </strong>\(\int {@df@}/{@f@} dx\)</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,3,4,5]);
+f: rand([sin(x),cos(x),ln(x)]);
+df: diff(f,x);
+tans: ln(f);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3898523  -->
+  <question type="stack">
+    <name>
+      <text>int2-4 f'(x)exp(f(x))</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Formula. </strong>\(\int f'(x)\exp(f(x))dx=\exp(f(x))\)</p><p><strong>Example. </strong>\(\int \cos(x)\exp(\sin(x))dx=\exp(\sin(x))\)</p><p><strong>Problem. </strong>\(\int {@df@}\exp({@f@}) dx\)</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,3,4,5]);
+f: rand([x^4,sin(x),cos(x)]);
+df: diff(f,x);
+tans: exp(f);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3898530  -->
+  <question type="stack">
+    <name>
+      <text>int2-5 partial-integration1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Formula. </strong>\(\int f'(x)g(x)dx=f(x)g(x)-\int f(x)g'(x)\)</p><p><strong>Example. </strong>\(\int \cos(x)\cdot xdx=\sin(x)\cdot x-\int \sin(x)\cdot 1\)</p><p><strong>Problem. </strong>\(\int {@df@}\cdot{@g@}dx=u(x)-\int {@f@}\cdot{@dg@} dx\) where \(u(x)\) is</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,3,4,5]);
+f: rand([exp(x),sin(x),cos(x)]);
+g: x^a;
+df: diff(f,x);
+dg: diff(g,x);
+tans: f*g;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3898553  -->
+  <question type="stack">
+    <name>
+      <text>int2-6 partial-fractions</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Formula. </strong>\(\int \frac{A}{x-a}dx=A\ln(x-a)\)</p><p><strong>Example. </strong>\(\int \frac{7}{x-2}dx=7\ln(x-2)\)</p><p>All rational functions can be expressed as the sum of a polynomial and terms of the form \(\frac{A}{x-a}\). This is known as the partial fraction decomposition.</p><p><strong>Problem. </strong>\(\int\frac{{@h@}}{(x-{#a#})(x-{#b#})}dx=\int\frac{{#c#}}{x-{#a#}}+\frac{{#d#}}{x-{#b#}}dx=?\)</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,4,6]);
+b: rand([3,5,7]);
+c: rand([3,5,7]);
+d: rand([3,5,7]);
+f: c/(x-a);
+g: d/(x-b);
+h: (c+d)*x-(a*d+b*c);
+tans: c*ln(x-a)+d*ln(x-b);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3898531  -->
+  <question type="stack">
+    <name>
+      <text>int2-7 partial-integration2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Formula. </strong>\(\int f'(x)g(x)dx=f(x)g(x)-\int f(x)g'(x)\)</p><p><strong>Example. </strong>\(\int \cos(x)\cdot xdx=\sin(x)\cdot x-\int \sin(x)\cdot 1\)</p><p><strong>Problem. </strong>\(\int {@df@}\cdot{@g@}dx={@f@}\cdot {@g@}-\int v(x) dx\) where \(v(x)\) is</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([2,3,4,5]);
+f: rand([exp(x),sin(x),cos(x)]);
+g: x^a;
+df: diff(f,x);
+dg: diff(g,x);
+tans: f*dg;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+</quiz>

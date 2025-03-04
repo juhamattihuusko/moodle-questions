@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Oletus kohteelle ID00CS33-3004/5trigonometry-laskin-export</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 3993114  -->
+  <question type="description">
+    <name>
+      <text>laskintehtävä-info</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><div dir="ltr"><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"></span></span></span></div><div dir="ltr"><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">In this task, the purpose is to calculate the values ​​of the functions sin/cos/tan and their inverse functions.</span></span></span></div><div dir="ltr"><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"><br></span></span></span></div><div dir="ltr"><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"><span><strong>You can try the task as many times as you want.</strong></span></span></span></span></div><div dir="ltr"><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"><br></span></span></span></div><div dir="ltr"><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Please calculate the values
+
+</span></span><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">with</span></span></span></div><div dir="ltr"><ul><li><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">a separate calculator</span></span></span></li><li><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">with the phone's calculator</span></span></span></li><li><span jsaction="mouseup:Sxi9L,BR6jm; mousedown:qjlr0e" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">with a phone calculator app (e.g. SpeedCrunch)</span></span></span></li></ul><div jsname="yiB9Md" jscontroller="msAMEf"></div><div jsaction="focusin:s5kOj;FzgWvd:uRAjKb,mebvqd,WSLPRc;bITzcd:n1Ixlc,dBh71c;iFFCZc:oeyCVc;EDR5Je:TEj9Q;Rld2oe:KkQIMc,wz6Dg" jsname="rYMao" jscontroller="gNRIbd" id="ow10" __is_owner="true"></div></div><div aria-hidden="true" data-location="2" jsaction="agoMJf:gXkcrf;h5CHLc:RHer4,P6Fjxb;rpiAHc:GitQp,fNH7he" jscontroller="LCd6Fb" jsname="c3wAjc"><span style="font-size: 0.9375rem;"><strong>It is not necessary to buy a separate calculator for math courses.</strong></span></div><div aria-hidden="true" data-location="2" jsaction="agoMJf:gXkcrf;h5CHLc:RHer4,P6Fjxb;rpiAHc:GitQp,fNH7he" jscontroller="LCd6Fb" jsname="c3wAjc"><b>You don't need a calculator in the exam.<br></b><br></div><p dir="ltr" style="text-align: left;"><strong></strong></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 3993115  -->
+  <question type="stack">
+    <name>
+      <text>laskin-trig1-sin</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong></strong></p><strong><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Example.</span></span> </strong><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">The calculator tells you that \(\cos(30^\circ)=0.866025\ldots\).</span></span> <span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">To two decimal places, this number is \(0.87\).<br></span></span><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"><br><strong>Task.</strong></span></span><strong> </strong><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Calculate with a calculator.</span></span> <span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">An accuracy of two decimal places is sufficient.</span></span> <span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Just write the answer in the box.<br></span></span><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"><br>\(\sin({#a#}^\circ)\)=[[input:ans1]] [[validation:ans1]]<br></span></span><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje"><br><strong>Info.</strong></span></span> <span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Checking the calculator settings.<br></span></span><ul><li><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">If your calculator gives "sin(90)=1", then your calculator is using degrees.</span></span></li><li><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">If your calculator gives "sin(90)=0.894", then your calculator may be using radians.</span></span></li><li><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">If your calculator gives "sin(90)=0.987", then your calculator may be using goons.</span></span></li></ul><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje" style="font-size: 0.9375rem;"><strong>Changing the unit.<br></strong></span><ul><li><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b" style="font-size: 0.9375rem;"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">radians to degrees: multiply by \(\frac{180}{\pi}\approx 57.3\).</span></span></li><li><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b" style="font-size: 0.9375rem;"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">degrees to radians: divide by \(\frac{180}{\pi}\approx 57.3\).</span></span></li></ul><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([30,40,50]);
+tans: float(round(100*sin(a*3.1415/180))/100);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.05</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3993116  -->
+  <question type="stack">
+    <name>
+      <text>laskin-trig2-cos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Calculate with a calculator.</span></span>&nbsp;<span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">An accuracy of two decimal places is sufficient.</span></span></p><p>\(\cos({#a#}^\circ)\)=[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([30,40,50]);
+tans: float(round(100*cos(a*3.1415/180))/100);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.05</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3993117  -->
+  <question type="stack">
+    <name>
+      <text>laskin-trig3-tan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">Calculate with a calculator.</span></span>&nbsp;<span jsaction="agoMJf:PFBcW;MZfLnc:P7O7bd;nt4Alf:pvnm0e,pfE8Hb,PFBcW;B01qod:dJXsye;H1e5u:iXtTIf;lYIUJf:hij5Wb" jsname="txFAF" jscontroller="BiTO4b"><span jsname="W297wb" jsaction="click:PDNqTc,GFf3ac,qlVvte;contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:PDNqTc,c2aHje">An accuracy of two decimal places is sufficient.</span></span></p><p>\(\tan({#a#}^\circ)\)=[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([30,40,50]);
+tans: float(round(100*tan(a*3.1415/180))/100);</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.05</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3993118  -->
+  <question type="stack">
+    <name>
+      <text>laskin-trig4-asin</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>Example. </strong>The calculator tells you that \(\arcsin(0.5)=30^\circ\).</p><p><strong>Task. </strong>Calculate with a calculator. Turn to full degrees. Write a simple number in the box without a degree sign.</p><p>\(\arcsin({#arvo#})\)=[[input:ans1]] [[validation:ans1]]</p><p><strong>Info. </strong>The value of the inverse function (main branch) of sin is in degrees between \(-90^\circ\leq y\leq 90^\circ\). The inverse function of sine is denoted in different ways, you can read it in a calculator, for example</p><p><ul><li>arcsin</li><li>asin</li><li>\(\sin^{-1}\)</li><li>inv sin</li></ul></p><p><strong>Hint.</strong></p><p>The answer to this task is in degrees between 20...60.</p><p>If the numerical value given by the calculator is less than 10, then the calculator gave the result in radians. Then multiply by \(\frac{180}{\pi}\approx 57.3\) to get the result in degrees. (Or change the calculator settings.)</p><p>Sometimes, rarely, the unit of the calculator is "goons". In goons, a full circle is 400 goons. Then \(\sin(100~\textrm{goons}=1\) and \(\arcsin(1)=100~\textrm{goons}\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([30,40,50]);
+arvo: float(round(100*sin(a*3.1415/180))/100);
+tans: a;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>2</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3993119  -->
+  <question type="stack">
+    <name>
+      <text>laskin-trig5-arccos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p>Calculate with a calculator. Round to full degrees.</p><p>\(\arccos({#arvo#})\)=[[input:ans1]] [[validation:ans1]]</p><p><strong>Info.</strong> The value of the inverse function (main branch) of the cosine is in degrees between \(0\leq y\leq 180^\circ\). The inverse function of cosine is denoted in different ways, you can read it in a calculator, for example</p><p><ul><li>arccos</li><li>acos</li><li>\(\cos^{-1}\)</li><li>inv cos</li></ul></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([30,40,50]);
+arvo: float(round(100*cos(a*3.1415/180))/100);
+tans: a;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>2</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 3993120  -->
+  <question type="stack">
+    <name>
+      <text>laskin-trig6-arctan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p>Calculate with a calculator. Round to full degrees.</p><p>\(\arctan({#arvo#})\)=[[input:ans1]] [[validation:ans1]]</p><p><strong>Info.</strong> The value of the inverse function (main branch) of the tangent is in degrees between \(-90^\circ\lt y\lt 90^\circ\). The inverse function of tangent is denoted in different ways, you can read it in a calculator, for example</p><p><ul><li>arctan</li><li>atan</li><li>\(\tan^{-1}\)</li><li>inv tan</li></ul></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a: rand([30,40,50]);
+arvo: float(round(100*tan(a*3.1415/180))/100);
+tans: a;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>2</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+</quiz>

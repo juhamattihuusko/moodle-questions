@@ -1,0 +1,2516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/kesakurssi</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 4759766  -->
+  <question type="stack">
+    <name>
+      <text>1-1 vektori pisteestä toiseen</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Määritä vektori \(\bar{u}\) pisteestä \(A\) pisteeseen \(B\), kun \(A={#A#}\) ja \(B={#B#}\).</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+P: (A+B+C)/3;
+u: B-A;
+tans: u;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759767  -->
+  <question type="stack">
+    <name>
+      <text>1-2 painopiste 3d</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Määritä painopiste kolmiolle \(ABC\), kun \(A={#A#}\), \(B={#B#}\) ja \(C={#C#}\).</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+P: (A+B+C)/3;
+u: B-A;
+tans: P;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4796401  -->
+  <question type="stack">
+    <name>
+      <text>1-3 vektorin pituus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Määritä vektorin \(\bar{u}={#A#}\) pituus.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+P: (A+B+C)/3;
+Apit: sqrt(A.A);
+u: B-A;
+tans: Apit;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759769  -->
+  <question type="stack">
+    <name>
+      <text>1-4 pisteiden välinen etäisyys</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Määritä pisteiden \(A={#A#}\) ja \(B={#B#}\) välinen etäisyys.</p><p>Tämän saa esimerkiksi laskemalla vektorin \(\bar{u}=B-A\) pituuden.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+P: (A+B+C)/3;
+Apit: sqrt(A.A);
+u: B-A;
+BdistA: sqrt(u.u);
+tans: BdistA;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759790  -->
+  <question type="stack">
+    <name>
+      <text>1-5 lähimpänä painopistettä</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Tarkastellaan kolmiota \(ABC\), missä \(A={#A#}\), \(B={#B#}\) ja \(C={#C#}\).</p><p>Eräs kolmion kärjistä on lähimpänä kolmion painopistettä. Mikä on kyseisen kärjen ja painopisteen välinen etäisyys?</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p dir="ltr">Kolmion painopiste on \(P=(A+B+C)/3={#P#}\).</p><p dir="ltr">Lasketaan</p><p dir="ltr"></p><ul><li>|A-P|={#dist1#}={#fdist1#}</li><li>|B-P|={#dist2#}={#fdist2#}</li><li>|C-P|={#dist3#}={#fdist3#}</li></ul><p>Minimi näistä luvuista on {#lyhin#}.</p><p></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+P: (A+B+C)/3;
+PA: A-P;
+PB: B-P;
+PC: C-P;
+dist1: sqrt(PA.PA);
+dist2: sqrt(PB.PB);
+dist3: sqrt(PC.PC);
+fdist1: float(sqrt(PA.PA));
+fdist2: float(sqrt(PB.PB));
+fdist3: float(sqrt(PC.PC));
+lyhin: min(dist1,dist2,dist3);
+tans: lyhin;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759770  -->
+  <question type="stack">
+    <name>
+      <text>1-5extra kolmion mediaanin pituus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Kolmion mediaani tarkoittaa yhden sivun keskipisteen ja vastakkaisen kärjen välistä janaa.</p><p></p><p>Määritä kolmion \(ABC\) kärkeen \(C\) päättyvän mediaanin pituus, kun \(A={#A#}\),&nbsp;\(B={#B#}\) ja&nbsp;\(C={#C#}\).</p><p>Sivun \(AB\) keskipiste on \(Q=(A+B)/2\). Mediaani on siis vektori \(\bar{u}=C-Q=C-(A+B)/2\) ja kysytään tämän vektorin pituutta.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+P: (A+B+C)/3;
+Q: (A+B)/2;
+M: C-Q;
+Apit: sqrt(A.A);
+u: B-A;
+BdistA: sqrt(u.u);
+CdistQ: sqrt(M.M);
+tans: CdistQ;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759771  -->
+  <question type="stack">
+    <name>
+      <text>2-1 pistetulo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Laske vektorien \(\bar{u}={#u#}\) ja \(\bar{v}={#v#}\) pistetulo.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>u1: rand([1,2,3]);
+u2: rand([4,5,6]);
+u3: rand([7,8,9]);
+v1: rand([-1,-2,-3]);
+v2: rand([7,8,9]);
+v3: rand([1,2,3]);
+u: [u1,u2,u3];
+v: [v1,v2,v3];
+tans: u.v;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759775  -->
+  <question type="stack">
+    <name>
+      <text>2-2 skalaariprojektio</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p>Skalaariprojektio on vektorin varjon (eli projektion) pituus toisella vektorilla.</p><p>Laske vektorin \(\bar{u}={#u#}\) skalaariprojektio&nbsp;\(u_{\bar{v}}\) vektorille \(\bar{v}={#v#}\).</p><p>Voit käyttää kaavaa&nbsp;<span style="font-size: 0.9375rem;">\(u_{\bar{v}}=\bar{u}\cdot\hat{v}\)</span></p><p><span style="font-size: 0.9375rem;">tai kaavaa&nbsp;\(u_{\bar{v}}=\frac{\bar{u}\cdot\bar{v}}{|\bar{v}|}\).</span></p><p></p><p></p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>u1: rand([1,2,3]);
+u2: rand([4,5,6]);
+u3: rand([7,8,9]);
+v1: rand([-1,-2,-3]);
+v2: rand([7,8,9]);
+v3: rand([1,2,3]);
+u: [u1,u2,u3];
+v: [v1,v2,v3];
+vnorm: sqrt(v.v);
+skalaariprojektiouv: u.v/vnorm;
+uparav: (u.v)/(v.v)*v;
+uperpv: u-(u.v)/(v.v)*v;
+tans: skalaariprojektiouv;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p>Jos on annettu vektorit \(\bar{u}\) ja \(\bar{v}\), niin ensimmäiselle voi tehdä esityksen</p><p>\(\bar{u}=\bar{u}_1+\bar{u}_2\),</p><p>missä \(\bar{u}_1\) on vektorin \(\bar{v}\) suuntainen ja \(\bar{u}_2\) on vektoria \(\bar{v}\) vastaan kohtisuora. Kaavat tätä varten ovat</p><p></p><ul><li>\(\bar{u}_1=(\bar{u}\cdot\hat{v})\hat{v}\)</li><li>\(\bar{u}_2)=\bar{u}-\bar{u}_1=\bar{u}-\bar{u}\cdot\hat{v})\hat{v}\).</li></ul><p></p><p></p><p>Ensimmäisen kaavan perusteella \(\bar{u}_1=t\bar{v}\) jollakin \(t\in\mathbb{R}\) on vektorin \(\bar{v}\) suuntainen tai nollavektori. Tätä kutsutaan vektorin \(\bar{u}\) projektioksi vektorille \(\bar{v}\).</p><p>Toisen kaavan perusteella \(\bar{u}_2\cdot\hat{v}=\bar{0}\) pienten laskujen jälkeen, joten&nbsp; \(\bar{u}_2\perp\bar{v}\).</p><br><p></p>]]></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759776  -->
+  <question type="stack">
+    <name>
+      <text>2-3 vektoriprojektio</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p>Vektoriprojektio on se osuus vektorista, jonka toisen vektorin varjo (eli projektio) peittää.<br></p><p>Laske vektorin \(\bar{u}={#u#}\) vektoriprojektio&nbsp;\(\bar{u}_{\bar{v}}\) vektorille \(\bar{v}={#v#}\).</p><p>Voit käyttää kaavaa&nbsp;<span style="font-size: 0.9375rem;">\(\bar{u}_{\bar{v}}=(\bar{u}\cdot\hat{v})\hat{v}\)</span></p><p><span style="font-size: 0.9375rem;">tai kaavaa&nbsp;\(\bar{u}_{\bar{v}}=\frac{\bar{u}\cdot\bar{v}}{|\bar{v}|^2}\hat{v}\).</span></p><p></p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>u1: rand([1,2,3]);
+u2: rand([4,5,6]);
+u3: rand([7,8,9]);
+v1: rand([-1,-2,-3]);
+v2: rand([7,8,9]);
+v3: rand([1,2,3]);
+u: [u1,u2,u3];
+v: [v1,v2,v3];
+uparav: (u.v)/(v.v)*v;
+uperpv: u-(u.v)/(v.v)*v;
+tans: uparav;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p>Jos on annettu vektorit \(\bar{u}\) ja \(\bar{v}\), niin ensimmäiselle voi tehdä esityksen</p><p>\(\bar{u}=\bar{u}_1+\bar{u}_2\),</p><p>missä \(\bar{u}_1\) on vektorin \(\bar{v}\) suuntainen ja \(\bar{u}_2\) on vektoria \(\bar{v}\) vastaan kohtisuora. Kaavat tätä varten ovat</p><p></p><ul><li>\(\bar{u}_1=(\bar{u}\cdot\hat{v})\hat{v}\)</li><li>\(\bar{u}_2)=\bar{u}-\bar{u}_1=\bar{u}-\bar{u}\cdot\hat{v})\hat{v}\).</li></ul><p></p><p></p><p>Ensimmäisen kaavan perusteella \(\bar{u}_1=t\bar{v}\) jollakin \(t\in\mathbb{R}\) on vektorin \(\bar{v}\) suuntainen tai nollavektori. Tätä kutsutaan vektorin \(\bar{u}\) projektioksi vektorille \(\bar{v}\).</p><p>Toisen kaavan perusteella \(\bar{u}_2\cdot\hat{v}=\bar{0}\) pienten laskujen jälkeen, joten&nbsp; \(\bar{u}_2\perp\bar{v}\).</p><br><p></p>]]></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759779  -->
+  <question type="stack">
+    <name>
+      <text>2-4 tee kohtisuoraksi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p></p><p></p><p></p><p>Määritä luku \(a\) siten, että vektorit \(\bar{u}={#u#}\) ja \(\bar{v}=[{#v1#},{#v2#},a]\) ovat kohtisuorassa.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>u1: rand([1,2,3]);
+u2: rand([4,5,6]);
+u3: rand([7,8,9]);
+v1: rand([-1,-2,-3]);
+v2: rand([7,8,9]);
+v3: rand([1,2,3]);
+u: [u1,u2,u3];
+v: [v1,v2,v3];
+puuttuva: -(u1*v1+u2*v2)/u3;
+w: [v1,v2,puuttuva];
+tarkistus: u.w;
+tans: puuttuva;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"></p><p>Jos on annettu vektorit \(\bar{u}\) ja \(\bar{v}\), niin ensimmäiselle voi tehdä esityksen</p><p>\(\bar{u}=\bar{u}_1+\bar{u}_2\),</p><p>missä \(\bar{u}_1\) on vektorin \(\bar{v}\) suuntainen ja \(\bar{u}_2\) on vektoria \(\bar{v}\) vastaan kohtisuora. Kaavat tätä varten ovat</p><p></p><ul><li>\(\bar{u}_1=(\bar{u}\cdot\hat{v})\hat{v}\)</li><li>\(\bar{u}_2)=\bar{u}-\bar{u}_1=\bar{u}-\bar{u}\cdot\hat{v})\hat{v}\).</li></ul><p></p><p></p><p>Ensimmäisen kaavan perusteella \(\bar{u}_1=t\bar{v}\) jollakin \(t\in\mathbb{R}\) on vektorin \(\bar{v}\) suuntainen tai nollavektori. Tätä kutsutaan vektorin \(\bar{u}\) projektioksi vektorille \(\bar{v}\).</p><p>Toisen kaavan perusteella \(\bar{u}_2\cdot\hat{v}=\bar{0}\) pienten laskujen jälkeen, joten&nbsp; \(\bar{u}_2\perp\bar{v}\).</p><br><p></p>]]></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759787  -->
+  <question type="stack">
+    <name>
+      <text>3-1 ristitulo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Laske vektorien \(\bar{u}={#u#}\) ja \(\bar{v}={#v#}\) ristitulo.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+u: B-A;
+v: C-A;
+uxv1: u[2]*v[3]-u[3]*v[2];
+uxv2: u[3]*v[1]-u[1]*v[3];
+uxv3: u[1]*v[2]-u[2]*v[1];
+uxv: [uxv1,uxv2,uxv3];
+tans: uxv;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759788  -->
+  <question type="stack">
+    <name>
+      <text>3-2 ristitulo tason normaali</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Laske pisteiden \(A={#A#}\), \(B={#B#}\) ja \(C={#C#}\) kautta kulkevan tason jokin normaali.</p><p>Normaaliksi käy vektorien \(\bar{u}=B-A={#u#}\) ja \(\bar{v}=C-A={#v#}\) ristitulo.</p><p>[[input:ans1]] [[validation:ans1]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+u: B-A;
+v: C-A;
+uxv1: u[2]*v[3]-u[3]*v[2];
+uxv2: u[3]*v[1]-u[1]*v[3];
+uxv3: u[1]*v[2]-u[2]*v[1];
+uxv: [uxv1,uxv2,uxv3];
+tans: uxv/sqrt(uxv.uxv);
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>AlgEquiv</answertest>
+        <sans>tans.ans1/sqrt(ans1.ans1)</sans>
+        <tans>1</tans>
+        <testoptions></testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759786  -->
+  <question type="stack">
+    <name>
+      <text>3-3 kolmion ala ristitulo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Laske pinta-ala kolmiolle \(ABC\), missä \(A={#A#}\),&nbsp;\(B={#B#}\),&nbsp;\(C={#C#}\).&nbsp;</p><p></p><p></p><p>Jos \(\bar{u}=B-A\) ja \(\bar{v}=C-A\), niin vastauksen saa esimerkiksi seuraavasti.</p><p></p><ul><li>Ristitulovektorin pituus \(|\bar{u}\times\bar{v}|/2\).</li><li>Vektorien välinen kulma \(\alpha=\acos(\hat{u}\cdot\hat{v})\), jonka jälkeen ala on \(|\bar{u}||\bar{v}|\sin(\alpha)/2\).</li><li>Kohtisuora komponentti \(\bar{u}_2=\bar{u}-(\bar{u}\cdot\hat{v})\hat{v}\), jonka jälkeen ala on \(|\bar{v}||\bar{u}_2|/2\). (Tuttu 0.5*kanta*korkeus.)</li></ul><p></p><p><span style="font-size: 0.9375rem;">[[input:ans1]] [[validation:ans1]]</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+u: B-A;
+v: C-A;
+uxv1: u[2]*v[3]-u[3]*v[2];
+uxv2: u[3]*v[1]-u[1]*v[3];
+uxv3: u[1]*v[2]-u[2]*v[1];
+uxv: [uxv1,uxv2,uxv3];
+tans: sqrt(uxv.uxv)/2;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4759785  -->
+  <question type="stack">
+    <name>
+      <text>3-4 ristitulo tetraedrin tilavuus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>Laske pinta-ala tilavuus tetraedrille \(ABCD\), missä \(A={#A#}\),&nbsp;\(B={#B#}\),&nbsp;\(C={#C#}\) ja \(D={#D#}\).&nbsp;</p><p></p><p></p><p>Jos \(\bar{u}=B-A={#u#}\), \(\bar{v}=C-A={#v#}\) ja \(\bar{w}=D-A={#w#}\), niin vastauksen saa esimerkiksi</p><p></p><ul><li>kaavalla \(|(\bar{u}\times\bar{v})\cdot\bar{w}|/6\)</li><li>matriisin \({#M#}\) determinantin avulla kaavalla \(\det(M)/6\)</li></ul><p></p><p></p><p><span style="font-size: 0.9375rem;">[[input:ans1]] [[validation:ans1]]</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>a1: rand([1,2,3]);
+a2: rand([4,5,6]);
+a3: rand([7,8,9]);
+b1: rand([-1,-2,-3]);
+b2: rand([7,8,9]);
+b3: rand([1,2,3]);
+c1: rand([2,3,5]);
+c2: rand([7,11,13]);
+c3: rand([1,2,3]);
+d1: rand([2,3,5]);
+d2: rand([7,11,13]);
+d3: rand([1,2,3]);
+A: [a1,a2,a3];
+B: [b1,b2,b3];
+C: [c1,c2,c3];
+D: [d1,d2,d3];
+u: B-A;
+v: C-A;
+w: D-A;
+M: matrix(u,v,w);
+uxv1: u[2]*v[3]-u[3]*v[2];
+uxv2: u[3]*v[1]-u[1]*v[3];
+uxv3: u[1]*v[2]-u[2]*v[1];
+uxv: [uxv1,uxv2,uxv3];
+tans: uxv.w/6;
+tai: determinant(M)/6;
+
+</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4760394  -->
+  <question type="stack">
+    <name>
+      <text>7-1 suora kahden pisteen kautta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p><span style="font-size: 0.9375rem;"><strong>Käsin.</strong> Pisteiden \((x_1,y_1)\) ja&nbsp;\((x_2,y_2)\) kulkevan suoran yhtälön voi määrittää käsin seuraavasti.</span></p><p><span style="font-size: 0.9375rem;">Suoran jyrkkyys eli kulmakerroin on \(k=\frac{y_2-y_1}{x_2-x_1}\). Se vertailee \(x\)-koordinaatin ja \(y\)-koordinaatin kasvunopeuksia, kun suoralla kuljetaan.</span></p><p><span style="font-size: 0.9375rem;">Suoran yhtälö on \(y-y_1=k(x-x_1)\), mihin tiedetyt arvot \(x_1,y_1,k\) sijoitetaan. Avaamalla sulut ja järjestelemällä yhtälön voi muokata vielä muotoon&nbsp;</span><span style="font-size: 0.9375rem;">\(y=ax+b\).</span></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki käsin. </strong>Olkoot&nbsp;\((x_1,y_1)=(2,3)\) ja&nbsp;\((x_2,y_2)=(5,4)\). Suoran kulmakerroin on \(k=\frac{4-3}{5-2}=\frac{1}{3}\). Suoran yhtälö on \(y-3=\frac{1}{3}(x-2)\) eli \(y=\frac{1}{3}x+\frac{7}{3}\).</span></p><p><span style="font-size: 0.9375rem;">Tarkoitus on harjoitella ratkaisemaan yhtälön \(y=ax+b\) parametrit tietokoneella.</span></p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki tietokoneella. </strong>Olkoot&nbsp;\((x_1,y_1)=(2,3)\) ja&nbsp;\((x_2,y_2)=(5,4)\). Kerätään \(vx\)-arvot vektoriin \(\bar{x}=[2,5]'\) ja \(y\)-arvot vektoriin \(\bar{y}=[3,4]'\). Tehdään saman kokoinen vektori, jossa on ykkösiä \(\bar{u}=[1,1]'\).</span></p><p><span style="font-size: 0.9375rem;">Halutaan, että \(ax_k+b*1=y_k\) toimii arvoilla \(k=1,2\).</span></p><p><span style="font-size: 0.9375rem;">Saadaan vektoriyhtälö, joka on kaavana&nbsp;</span><span style="font-size: 0.9375rem;">\(a\bar{x}+b\bar{u}=\bar{y}\),</span></p><p><span style="font-size: 0.9375rem;">ja aukikirjoitettuna \(a\begin{bmatrix}2\\ 5\end{bmatrix}+b\begin{bmatrix}1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\).</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;">Tehdään matriisiyhtälö, missä \(A=[\bar{x},\bar{u}]\) ja \(\bar{z}=[a,b]'\).</span></p><p><span style="font-size: 0.9375rem;">Kaavana matriisiyhtälö on&nbsp;\(A\bar{z}=\bar{y}\)</span></p><p><span style="font-size: 0.9375rem;">ja aukikirjoitettuna \(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\).</span></p><p><span style="font-size: 0.9375rem;">Ratkaistaan matriisiyhtälö tietokoneella, jolloin saadaan selville \(\bar{z}=[a,b]'=[0.333,2.333]\), mistä luetaan \(a=0.333\) ja \(b=2.333\).</span></p><p><span style="font-size: 0.9375rem;"><strong>Octave-koodi.</strong></span></p><p><span style="font-size: 0.9375rem;"><strong></strong></span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><strong><span class="" style="color: rgb(125, 159, 211);">x=[2,5]';
+y=[3,4]';
+u=0*x+1;
+A=[x,u];
+%yhtälön Az=y ratkaisu on
+z=A\y
+z =
+
+   0.3333
+   2.3333</span></strong></pre><p><span style="font-size: 0.9375rem;"><strong>Tehtävä. </strong>Määritä luvut a ja b siten, että suora \(y=ax+b\) kulkee pisteiden \({#p1#}\) ja&nbsp;\({#p2#}\) kautta. Anna vastaus lukuparina [a,b].</span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"></pre><p><span style="font-size: 0.9375rem;">[a,b]=[[input:ans1]] [[validation:ans1]]</span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>x1: rand([1,3,5]);
+x2: rand([2,4,6]);
+x: [x1,x2];
+y1: rand([1,3,5]);
+y2: rand([2,4,6]);
+y: [y1,y2];
+p1: [x1,y1];
+p2: [x2,y2];
+u: 0*x+1;
+A: matrix(x,u);
+Ainv: invert(A);
+z: Ainv.y;
+a: z[1];
+b: z[2];
+zz: [a,b];
+zzz: [a[1],b[1]]
+tans: zz;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4796407  -->
+  <question type="stack">
+    <name>
+      <text>7-2 suoran sovittaminen pistejoukkoon</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p><strong style="font-size: 0.9375rem;">Kertausta (suora kahden pisteen kautta). </strong><span style="font-size: 0.9375rem;">Pisteiden \((2,3)\) ja&nbsp;\((5,4)\) kautta kulkevan suoran \(y=ax+b\) parametrit a ja b saatiin vektoriyhtälöstä</span></p><p></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}2\\ 5\end{bmatrix}+b\begin{bmatrix}1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\).</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;">muuntamalla se matriisimuotoon</span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)</span></p><p><span style="font-size: 0.9375rem;">ja syöttämällä tämä tietokoneelle.</span></p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki, osa 1 (suora useamman pisteen joukkoon). </strong>Lisätään pisteiden joukkoon \((7,7)\). Saadaan vektoriyhtälöksi</span></p><p><span style="font-size: 0.9375rem;"></span></p><p><span>\(a\begin{bmatrix}2\\ 5\\ 7\end{bmatrix}+b\begin{bmatrix}1\\ 1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span>ja matriisimuodoksi \(Az=y\)</span></p><p><span>\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\\ 7 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</span></p><p><span>Tällä yhtälöllä ei yleensä ole oikeaa ratkaisua. Standardi "ratkaisu" yhtälölle on ns. PNS eli pienimmän neliösumman ratkaisu, joka yleensä halutaan. (PNS-ratkaisulle on kaava \(z=(A^TA)^{-1}A^Ty\), jota ei tarvitse opetella.)</span></p><p></p><p>Nimittäin, koska PNS-ratkaisu yleensä halutaan, niin Octave antaa PNS-ratkaisun tutulla komennolla. Yhtälön \(Az=y\) PNS-ratkaisu on Octavessa \(z=A\backslash y\). Jos \(A\) ei ole neliömatriisi, niin Octave ei silti yski yhtään.</p><p><strong>Esimerkki, osa 2. </strong>Ratkaistaan&nbsp;</p><p></p><p><span>\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\\ 7 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).<br></span></p><p><span>Octavella. Koodi</span></p><p><span class="" style="color: rgb(125, 159, 211);"><strong>x=[2,5,7]';<br></strong></span><strong style="color: rgb(125, 159, 211); font-size: 0.9375rem;">y=[3,4,7]';<br></strong><strong style="color: rgb(125, 159, 211); font-size: 0.9375rem;">u=0*x+1;<br></strong><strong style="color: rgb(125, 159, 211); font-size: 0.9375rem;">A=[x,u];<br></strong><strong style="color: rgb(125, 159, 211); font-size: 0.9375rem;">%yhtälön Az=y PNS-ratkaisu on<br></strong><strong style="color: rgb(125, 159, 211); font-size: 0.9375rem;">z=A\y<br></strong><strong style="font-family: SFMono-Regular, Menlo, Monaco, Consolas, &quot;Liberation Mono&quot;, &quot;Courier New&quot;, monospace; color: rgb(125, 159, 211); font-size: 0.9375rem;">z =</strong></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><strong style="color: rgb(125, 159, 211); font-size: 0.9375rem;">   0.7632
+   1.1053</strong></pre><p><span style="font-size: 0.9375rem;">Tarkastellaan virhettä</span></p><p><span style="font-size: 0.9375rem;"></span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><strong><span class="" style="color: rgb(125, 159, 211);">A*z-y
+ans =
+
+  -0.3684
+   0.9211
+  -0.5526</span></strong></pre><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span style="font-size: 0.9375rem; color: rgb(73, 80, 87); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;">Nähdään, että suora ylittää keskimmäisen pisteen 0.9211 liian korkealta.</span></pre><p></p><p></p><p><span style="font-size: 0.9375rem;"><strong>Tehtävä. </strong>PNS-sovita suora \(y=ax+b\) pistejoukkoon \({#p1#}\), \({#p2#}\), \({#p3#}\). Anna vastaus lukuparina [a,b].</span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"></pre><p><span style="font-size: 0.9375rem;">[a,b]=[[input:ans1]] [[validation:ans1]]</span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>x1: rand([1,3,5]);
+x2: rand([2,4,6]);
+x3: rand([7,8]);
+x: [x1,x2,x3];
+y1: rand([3,5]);
+y2: rand([4,6]);
+y3: rand([1,2]);
+y: [y1,y2,y3];
+x: [2,5,7];
+y: [3,4,7];
+p1: [x1,y1];
+p2: [x2,y2];
+p3: [x3,y3];
+u: 0*x+1;
+AT: matrix(x,u);
+A: transpose(AT);
+ATA: AT.A;
+Apinv: invert(ATA).AT;
+z: float(Apinv.y);
+tans: z;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4760484  -->
+  <question type="stack">
+    <name>
+      <text>7-3 korjataan paraabeli kolmen pisteen kautta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p><strong style="font-size: 0.9375rem;">Kertausta (suora kahden pisteen kautta). </strong><span style="font-size: 0.9375rem;">Pisteiden \((2,3)\) ja&nbsp;\((5,4)\) kautta kulkevan suoran \(y=ax+b\) parametrit a ja b saatiin vektoriyhtälöstä</span></p><p></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}2\\ 5\end{bmatrix}+b\begin{bmatrix}1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\).</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;">muuntamalla se matriisimuotoon</span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)</span></p><p><span style="font-size: 0.9375rem;">ja syöttämällä tämä tietokoneelle.</span></p><p><span style="font-size: 0.9375rem;"><strong>Kertausta (suoran PNS-sovitus). </strong>Suoran \(y=ax+b\) PNS-sovitus pistejoukkoon&nbsp;\((2,3)\), \((5,4)\), \((7,7)\) saatiin PNS-ratkaisemalla matriisiyhtälö</span></p><p>\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\\ 7 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki (paraabeli kolmen pisteen kautta).&nbsp;</strong>Otetaan käyräksi paraabeli \(y=ax^2+bx+c\), jossa on kolme parametria. Tehdään apuvektori, jossa on \(x\)-koordinaattien neliöt</span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix}2^2\\ 5^2\\ 7^2\end{bmatrix}=\begin{bmatrix}4\\ 25\\ 49\end{bmatrix}\). Saadaan vektoriyhtälö</span></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}4\\ 25\\ 49\end{bmatrix}+b\begin{bmatrix}2\\ 5\\ 7\end{bmatrix}+c\begin{bmatrix}1\\ 1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\)<br></span></p><p><span style="font-size: 0.9375rem;"></span></p><p>ja matriisiyhtälö</p><p>\(\begin{bmatrix} 4 &amp; 2 &amp; 1\\ 25 &amp; 5 &amp; 1\\ 49 &amp; 7 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\\ c\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</p><p><span>Tämä ratkaistiin tietokoneella.ja syötetään tämä tietokoneella koodilla</span></p><p><span></span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);"><strong>x=[2,5,7]';
+y=[3,4,7]';
+u=0*x+1;
+x2=x.*x
+A=[x2,x,u];
+%yhtälön Az=y ratkaisu on
+z=A\y</strong></span></pre><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);"><strong>
+<pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);">x2 =
+
+    4
+   25
+   49</span></pre>z =
+
+   0.2333
+  -1.3000
+   4.6667</strong></span></pre><strong>Tehtävä. </strong>Etsi paraabeli \(ax^2+bx+c=y\), joka kulkee pisteiden \({#p1#}\), \({#p2#}\) ja \({#p3#}\) kautta. Anna vastaus lukulistana [a,b,c].<br><br><p></p><p></p><p></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"></pre><p><span style="font-size: 0.9375rem;">[a,b,c]=[[input:ans1]] [[validation:ans1]]</span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>x1: rand([1,3,5]);
+x2: rand([2,4,6]);
+x3: rand([7,8]);
+x: [x1,x2,x3];
+y1: rand([3,5]);
+y2: rand([4,6]);
+y3: rand([1,2]);
+y: [y1,y2,y3];
+xx:x*x;
+p1: [x1,y1];
+p2: [x2,y2];
+p3: [x3,y3];
+u: 0*x+1;
+AT: matrix(xx,x,u);
+A: transpose(AT);
+ATA: AT.A;
+Apinv: invert(ATA).AT;
+z: float(Apinv.y);
+tans: z;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4760460  -->
+  <question type="stack">
+    <name>
+      <text>7-4 paraabeli neljän pisteen kautta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p><strong style="font-size: 0.9375rem;">Kertausta (suora kahden pisteen kautta). </strong><span style="font-size: 0.9375rem;">Pisteiden \((2,3)\) ja&nbsp;\((5,4)\) kautta kulkevan suoran \(y=ax+b\) parametrit a ja b saatiin vektoriyhtälöstä</span></p><p></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}2\\ 5\end{bmatrix}+b\begin{bmatrix}1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\).</span></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;">muuntamalla se matriisimuotoon</span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)</span></p><p><span style="font-size: 0.9375rem;">ja syöttämällä tämä tietokoneelle.</span></p><p><span style="font-size: 0.9375rem;"><strong>Kertausta (suoran PNS-sovitus). </strong>Suoran \(y=ax+b\) PNS-sovitus pistejoukkoon&nbsp;\((2,3)\), \((5,4)\), \((7,7)\) saatiin PNS-ratkaisemalla matriisiyhtälö</span></p><p>\(\begin{bmatrix} 2 &amp; 1\\ 5 &amp; 1\\ 7 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki (paraabeli kolmen pisteen kautta).&nbsp;</strong>Otetaan käyräksi paraabeli \(y=ax^2+bx+c\), jossa on kolme parametria. Tehdään apuvektori, jossa on \(x\)-koordinaattien neliöt</span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix}2^2\\ 5^2\end{bmatrix}=\begin{bmatrix}4\\ 25\end{bmatrix}\). Saadaan vektoriyhtälö</span></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}4\\ 25\end{bmatrix}+b\begin{bmatrix}2\\ 5\end{bmatrix}+c\begin{bmatrix}1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)<br></span></p><p><span style="font-size: 0.9375rem;"></span></p><p>ja matriisiyhtälö</p><p>\(\begin{bmatrix} 4 &amp; 2 &amp; 1\\ 25 &amp; 5 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\\ c\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)</p><p><span>ja syötetään tämä tietokoneelle. Octave-koodi</span></p><p><span></span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);"><strong>x=[2,5,7]';
+y=[3,4,7]';
+u=0*x+1;
+x2=x.*x;
+A=[x2,x,u];
+%yhtälön Az=y ratkaisu on
+z=A\y
+z =
+
+   0.2333
+  -1.3000
+   4.6667</strong></span></pre><strong>Tehtävä. </strong>PNS-sovita paraabeli \(y=ax^2+bx+c\) pistejoukkoon \({#p1#}\), \({#p2#}\), \({#p3#}\),&nbsp;&nbsp;\({#p4#}\). Anna vastaus lukulistana [a,b,c].<br><p></p><p></p><p></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"></pre><p><span style="font-size: 0.9375rem;">[a,b,c]=[[input:ans1]] [[validation:ans1]]</span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>x1: rand([1,3,5]);
+x2: rand([2,4,6]);
+x3: rand([7,8]);
+x4: rand([9]);
+x: [x1,x2,x3,x4];
+y1: rand([3,5]);
+y2: rand([4,6]);
+y3: rand([1,2]);
+y4: rand([3,4]);
+y: [y1,y2,y3,y4];
+p1: [x1,y1];
+p2: [x2,y2];
+p3: [x3,y3];
+p4: [x4,y4];
+xx: x*x;
+u: 0*x+1;
+AT: matrix(xx,x,u);
+A: transpose(AT);
+ATA: AT.A;
+Apinv: invert(ATA).AT;
+z: float(Apinv.y);
+tans: z;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4760476  -->
+  <question type="stack">
+    <name>
+      <text>7-5 hups bexp(ax) sovitus kolmen pisteen kautta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki (paraabeli kolmen pisteen kautta).&nbsp;</strong>Otetaan pistejoukoksi \((2,3)\), \((5,4)\), \((7,7)\) ja käyräksi paraabeli \(y=ax^2+bx+c\), jossa on kolme parametria. Katsotaan yhtälöä \(a\cdot x^2+b\cdot x+c\cdot 1=y\). Tarvitaan neljä vektoria: \(x\)-koordinaattien neliöt, \(x\)-koordinaatit, lukuja \(1\), \(y\)-koordinaatit.&nbsp;</span><span style="font-size: 0.9375rem;">Saadaan vektoriyhtälö</span></p><p></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}4\\ 25\\ 49\end{bmatrix}+b\begin{bmatrix}2\\ 5\\ 7\end{bmatrix}+c\begin{bmatrix}1\\ 1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\)<br></span></p><p><span style="font-size: 0.9375rem;"></span></p><p>ja matriisiyhtälö</p><p>\(\begin{bmatrix} 4 &amp; 2 &amp; 1\\ 25 &amp; 5 &amp; 1\\ 49 &amp; 7 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\\ c\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</p><p><span>Tämä ratkaistiin tietokoneella.ja syötetään tämä tietokoneella koodilla</span></p><p><span></span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);"><strong>x=[2,5,7]';
+y=[3,4,7]';
+u=0*x+1;
+x2=x.*x
+A=[x2,x,u];
+%yhtälön Az=y ratkaisu on
+z=A\y</strong></span></pre><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);"><strong>
+<pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);">x2 =
+
+    4
+   25
+   49</span></pre>z =
+
+   0.2333
+  -1.3000
+   4.6667</strong></span></pre><strong>Tehtävä. </strong>PNS-sovita käyrä \(y=b\exp(ax)\) pistejoukkoon \({#p1#}\), \({#p2#}\), \({#p3#}\). Anna vastaus lukulistana [a,b].<br><br>Vihje. Ottamalla logaritmit \(\ln(y)=ax+\ln(b)\).<br>{#z#}<br>{#w#}<br><p></p><p></p><p></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"></pre><p><span style="font-size: 0.9375rem;">[a,b,c]=[[input:ans1]] [[validation:ans1]]</span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>x1: rand([1,3,5]);
+x2: rand([2,4,6]);
+x3: rand([7,8]);
+x: [x1,x2,x3];
+y1: rand([3,5]);
+y2: rand([4,6]);
+y3: rand([1,2]);
+y: [y1,y2,y3];
+lny: log(y);
+p1: [x1,y1];
+p2: [x2,y2];
+p3: [x3,y3];
+u: 0*x+1;
+AT: matrix(x,u);
+A: transpose(AT);
+ATA: AT.A;
+Apinv: invert(ATA).AT;
+z: float(Apinv.lny);
+w: [z[1],exp(z[2])];
+tans: w;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>0</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+<!-- question: 4760461  -->
+  <question type="stack">
+    <name>
+      <text>7-5 käyrä pistejoukkoon</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p></p><p></p><p></p><p><span style="font-size: 0.9375rem;"><strong>Esimerkki (paraabeli kolmen pisteen kautta).&nbsp;</strong>Otetaan käyräksi paraabeli \(y=a\cdot x^2+b\cdot x+c\cdot 1\). Tehdään \(x\)-koordinaatit sisältävä apuvektori \(\begin{bmatrix}2\\ 5\\ 7\end{bmatrix}\) ja yhtä pitkät vektorit, joista toisessa on näiden neliöitä ja toisessa ykkösiä</span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix}4\\ 25\\ 49\end{bmatrix},\quad \begin{bmatrix}1\\ 1\\ 1\end{bmatrix}\).<br></span></p><p><span style="font-size: 0.9375rem;">Sijoitetaan nämä käyrän yhtälöön</span></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}4\\ 25\\ 49\end{bmatrix}+b\begin{bmatrix}2\\ 5\\ 7\end{bmatrix}+c\begin{bmatrix}1\\ 1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\\ 7\end{bmatrix}\).</span></p><p><span style="font-size: 0.9375rem;"><br></span></p><p><span style="font-size: 0.9375rem;">\(\begin{bmatrix}2^2\\ 5^2\end{bmatrix}=\begin{bmatrix}4\\ 25\end{bmatrix}\). Saadaan vektoriyhtälö</span></p><p><span style="font-size: 0.9375rem;">\(a\begin{bmatrix}4\\ 25\end{bmatrix}+b\begin{bmatrix}2\\ 5\end{bmatrix}+c\begin{bmatrix}1\\ 1\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)<br></span></p><p><span style="font-size: 0.9375rem;"></span></p><p>ja matriisiyhtälö</p><p>\(\begin{bmatrix} 4 &amp; 2 &amp; 1\\ 25 &amp; 5 &amp; 1\end{bmatrix}\begin{bmatrix}a\\ b\\ c\end{bmatrix}=\begin{bmatrix}3\\ 4\end{bmatrix}\)</p><p><span>ja syötetään tämä tietokoneelle. Octave-koodi</span></p><p><span></span></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"><span class="" style="color: rgb(125, 159, 211);"><strong>x=[2,5,7]';
+y=[3,4,7]';
+u=0*x+1;
+x2=x.*x;
+A=[x2,x,u];
+%yhtälön Az=y ratkaisu on
+z=A\y
+z =
+
+   0.2333
+  -1.3000
+   4.6667</strong></span></pre><strong>Tehtävä. </strong>PNS-sovita paraabeli \(y=ax^2+bx+c\) pistejoukkoon \({#p1#}\), \({#p2#}\), \({#p3#}\),&nbsp;&nbsp;\({#p4#}\). Anna vastaus lukulistana [a,b,c].<br><p></p><p></p><p></p><pre id="console" data-bind="css: { 'console-wrap': consoleWhiteSpaceWrap }"></pre><p><span style="font-size: 0.9375rem;">[a,b,c]=[[input:ans1]] [[validation:ans1]]</span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <stackversion>
+      <text>2024012900</text>
+    </stackversion>
+    <questionvariables>
+      <text>x1: rand([1,3,5]);
+x2: rand([2,4,6]);
+x3: rand([7,8]);
+x4: rand([9]);
+x: [x1,x2,x3,x4];
+y1: rand([3,5]);
+y2: rand([4,6]);
+y3: rand([1,2]);
+y4: rand([3,4]);
+y: [y1,y2,y3,y4];
+p1: [x1,y1];
+p2: [x2,y2];
+p3: [x3,y3];
+p4: [x4,y4];
+xx: x*x;
+u: 0*x+1;
+AT: matrix(xx,x,u);
+A: transpose(AT);
+ATA: AT.A;
+Apinv: invert(ATA).AT;
+z: float(Apinv.y);
+tans: z;</text>
+    </questionvariables>
+    <specificfeedback format="html">
+      <text>[[feedback:prt1]]</text>
+    </specificfeedback>
+    <questionnote>
+      <text>a</text>
+    </questionnote>
+    <questiondescription format="html">
+      <text></text>
+    </questiondescription>
+    <questionsimplify>1</questionsimplify>
+    <assumepositive>0</assumepositive>
+    <assumereal>0</assumereal>
+    <prtcorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:green;"><i class="fa fa-check"></i></span><span class="multilang" lang="fi"> Vastauksesi oli oikein, hienosti tehty!</span><span class="multilang" lang="en">Your answers were correct, well done!</span></p></div>]]></text>
+    </prtcorrect>
+    <prtpartiallycorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:orange;"><i class="fa fa-adjust"></i></span><span class="multilang" lang="fi"> Vastauksesi oli osittain oikein.</span><span class="multilang" lang="en">Your answers were partially correct.</span></p></div>]]></text>
+    </prtpartiallycorrect>
+    <prtincorrect format="html">
+      <text><![CDATA[<div><p><span style="font-size: 1.5em; color:red;"><i class="fa fa-times"></i></span><span class="multilang" lang="fi"> Vastauksesi oli väärin.</span><span class="multilang" lang="en">Your answers were incorrect.</span></p></div>]]></text>
+    </prtincorrect>
+    <decimals>.</decimals>
+    <multiplicationsign>dot</multiplicationsign>
+    <sqrtsign>1</sqrtsign>
+    <complexno>i</complexno>
+    <inversetrig>cos-1</inversetrig>
+    <logicsymbol>lang</logicsymbol>
+    <matrixparens>[</matrixparens>
+    <variantsselectionseed></variantsselectionseed>
+    <input>
+      <name>ans1</name>
+      <type>algebraic</type>
+      <tans>tans</tans>
+      <boxsize>15</boxsize>
+      <strictsyntax>1</strictsyntax>
+      <insertstars>0</insertstars>
+      <syntaxhint></syntaxhint>
+      <syntaxattribute>0</syntaxattribute>
+      <forbidwords></forbidwords>
+      <allowwords></allowwords>
+      <forbidfloat>1</forbidfloat>
+      <requirelowestterms>0</requirelowestterms>
+      <checkanswertype>0</checkanswertype>
+      <mustverify>1</mustverify>
+      <showvalidation>1</showvalidation>
+      <options></options>
+    </input>
+    <prt>
+      <name>prt1</name>
+      <value>1.0000000</value>
+      <autosimplify>1</autosimplify>
+      <feedbackstyle>1</feedbackstyle>
+      <feedbackvariables>
+        <text></text>
+      </feedbackvariables>
+      <node>
+        <name>0</name>
+        <description></description>
+        <answertest>NumAbsolute</answertest>
+        <sans>ans1</sans>
+        <tans>tans</tans>
+        <testoptions>0.1</testoptions>
+        <quiet>0</quiet>
+        <truescoremode>=</truescoremode>
+        <truescore>1</truescore>
+        <truepenalty></truepenalty>
+        <truenextnode>-1</truenextnode>
+        <trueanswernote>prt1-1-T</trueanswernote>
+        <truefeedback format="html">
+          <text></text>
+        </truefeedback>
+        <falsescoremode>=</falsescoremode>
+        <falsescore>0</falsescore>
+        <falsepenalty></falsepenalty>
+        <falsenextnode>-1</falsenextnode>
+        <falseanswernote>prt1-1-F</falseanswernote>
+        <falsefeedback format="html">
+          <text></text>
+        </falsefeedback>
+      </node>
+    </prt>
+  </question>
+
+</quiz>
